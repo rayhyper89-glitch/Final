@@ -1,1 +1,13 @@
+body {
+  background-color: coral; /* Coral background */
+  font-family: "Times New Roman", Times, serif; /* New Times Roman font */
+  color: black; /* Black text */
+}
 
+h1, h2 {
+  color: black;
+}
+
+button {
+  margin-top: 10px;
+}
