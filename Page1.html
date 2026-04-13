@@ -3,32 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>College Guide - Home</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- Navigation Bar (shared across pages) -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
     <a class="navbar-brand" href="index.html">College Guide</a>
     <div>
-      <a class="nav-link d-inline text-white" href="tips.html">Tips</a>
-      <a class="nav-link d-inline text-white" href="resources.html">Resources</a>
+      <a class="text-white me-3" href="tips.html">Tips</a>
+      <a class="text-white" href="resources.html">Resources</a>
     </div>
   </div>
 </nav>
 
 <div class="container mt-4">
   <h1>Finding Your Way Through College</h1>
-  <p>This website helps students navigate college life, from studying to managing stress.</p>
+  <p>This website helps you succeed in college.</p>
 
-  <!-- Button to trigger JavaScript event -->
-  <button id="motivateBtn" class="btn btn-primary">Get Motivation</button>
-  <p id="motivationText"></p>
+  <!-- EVENTS -->
+  <button id="loadEventsBtn" class="btn btn-primary">Show Events</button>
+  <div id="eventsContainer"></div>
 </div>
 
+<!-- JS -->
 <script src="script.js"></script>
+
 </body>
 </html>
 
